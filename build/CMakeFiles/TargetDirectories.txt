@@ -1,0 +1,3 @@
+/home/iamjp/NeoVim/ParcialMateDiscreta/build/CMakeFiles/mi_app.dir
+/home/iamjp/NeoVim/ParcialMateDiscreta/build/CMakeFiles/edit_cache.dir
+/home/iamjp/NeoVim/ParcialMateDiscreta/build/CMakeFiles/rebuild_cache.dir
