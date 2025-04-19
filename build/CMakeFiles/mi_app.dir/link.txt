@@ -1,0 +1,1 @@
+/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/mi_app.dir/link.d CMakeFiles/mi_app.dir/main.cpp.o -o mi_app  -Wl,-rpath,/usr/local/lib /usr/local/lib/libtgui.so.0.9.5 /usr/local/lib/libsfml-graphics.so.2.6.2 /usr/local/lib/libsfml-window.so.2.6.2 /usr/local/lib/libsfml-system.so.2.6.2
