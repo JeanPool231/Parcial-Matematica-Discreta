@@ -23,9 +23,19 @@ CMakeFiles/mi_app.dir/main.cpp.o: /home/iamjp/NeoVim/ParcialMateDiscreta/main.cp
   /usr/include/bits/errno.h \
   /usr/include/bits/floatn-common.h \
   /usr/include/bits/floatn.h \
+  /usr/include/bits/flt-eval-method.h \
+  /usr/include/bits/fp-fast.h \
+  /usr/include/bits/fp-logb.h \
+  /usr/include/bits/iscanonical.h \
   /usr/include/bits/libc-header-start.h \
+  /usr/include/bits/libm-simd-decl-stubs.h \
   /usr/include/bits/locale.h \
   /usr/include/bits/long-double.h \
+  /usr/include/bits/math-vector.h \
+  /usr/include/bits/mathcalls-helper-functions.h \
+  /usr/include/bits/mathcalls-macros.h \
+  /usr/include/bits/mathcalls-narrow.h \
+  /usr/include/bits/mathcalls.h \
   /usr/include/bits/pthread_stack_min-dynamic.h \
   /usr/include/bits/pthreadtypes-arch.h \
   /usr/include/bits/pthreadtypes.h \
@@ -159,6 +169,7 @@ CMakeFiles/mi_app.dir/main.cpp.o: /home/iamjp/NeoVim/ParcialMateDiscreta/main.cp
   /usr/include/c++/14.2.1/bits/shared_ptr.h \
   /usr/include/c++/14.2.1/bits/shared_ptr_atomic.h \
   /usr/include/c++/14.2.1/bits/shared_ptr_base.h \
+  /usr/include/c++/14.2.1/bits/specfun.h \
   /usr/include/c++/14.2.1/bits/sstream.tcc \
   /usr/include/c++/14.2.1/bits/std_abs.h \
   /usr/include/c++/14.2.1/bits/std_function.h \
@@ -205,6 +216,7 @@ CMakeFiles/mi_app.dir/main.cpp.o: /home/iamjp/NeoVim/ParcialMateDiscreta/main.cp
   /usr/include/c++/14.2.1/cerrno \
   /usr/include/c++/14.2.1/chrono \
   /usr/include/c++/14.2.1/clocale \
+  /usr/include/c++/14.2.1/cmath \
   /usr/include/c++/14.2.1/codecvt \
   /usr/include/c++/14.2.1/compare \
   /usr/include/c++/14.2.1/concepts \
@@ -258,6 +270,18 @@ CMakeFiles/mi_app.dir/main.cpp.o: /home/iamjp/NeoVim/ParcialMateDiscreta/main.cp
   /usr/include/c++/14.2.1/string \
   /usr/include/c++/14.2.1/string_view \
   /usr/include/c++/14.2.1/system_error \
+  /usr/include/c++/14.2.1/tr1/bessel_function.tcc \
+  /usr/include/c++/14.2.1/tr1/beta_function.tcc \
+  /usr/include/c++/14.2.1/tr1/ell_integral.tcc \
+  /usr/include/c++/14.2.1/tr1/exp_integral.tcc \
+  /usr/include/c++/14.2.1/tr1/gamma.tcc \
+  /usr/include/c++/14.2.1/tr1/hypergeometric.tcc \
+  /usr/include/c++/14.2.1/tr1/legendre_function.tcc \
+  /usr/include/c++/14.2.1/tr1/modified_bessel_func.tcc \
+  /usr/include/c++/14.2.1/tr1/poly_hermite.tcc \
+  /usr/include/c++/14.2.1/tr1/poly_laguerre.tcc \
+  /usr/include/c++/14.2.1/tr1/riemann_zeta.tcc \
+  /usr/include/c++/14.2.1/tr1/special_function_util.h \
   /usr/include/c++/14.2.1/tuple \
   /usr/include/c++/14.2.1/type_traits \
   /usr/include/c++/14.2.1/typeindex \
@@ -294,6 +318,7 @@ CMakeFiles/mi_app.dir/main.cpp.o: /home/iamjp/NeoVim/ParcialMateDiscreta/main.cp
   /usr/include/linux/stddef.h \
   /usr/include/linux/types.h \
   /usr/include/locale.h \
+  /usr/include/math.h \
   /usr/include/pthread.h \
   /usr/include/sched.h \
   /usr/include/stdc-predef.h \
@@ -628,8 +653,6 @@ CMakeFiles/mi_app.dir/main.cpp.o:
 
 /usr/lib/libc_nonshared.a:
 
-/usr/lib/libc.so.6:
-
 /usr/lib/libudev.so.1:
 
 /usr/lib/libbrotlidec.so.1:
@@ -654,23 +677,49 @@ CMakeFiles/mi_app.dir/main.cpp.o:
 
 /usr/lib/libGL.so.1:
 
-/usr/include/c++/14.2.1/sstream:
+/usr/lib/ld-linux-x86-64.so.2:
 
-/usr/local/include/TGUI/Cursor.hpp:
+/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/crtendS.o:
 
-/usr/include/c++/14.2.1/ratio:
+/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/crtbeginS.o:
 
-/usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/messages_members.h:
+/usr/lib/libstdc++.so:
 
-/usr/include/c++/14.2.1/pstl/pstl_config.h:
+/usr/lib/libm.so:
 
-/usr/local/include/TGUI/Loading/WidgetFactory.hpp:
+/usr/lib/libgcc_s.so.1:
+
+/usr/lib/libgcc_s.so:
+
+/usr/lib/crtn.o:
+
+/usr/lib/Scrt1.o:
+
+/usr/local/include/TGUI/extlibs/Aurora/Tools/Swap.hpp:
+
+/usr/local/include/TGUI/extlibs/Aurora/Tools/SafeBool.hpp:
+
+/usr/local/include/TGUI/extlibs/Aurora/Tools/NonCopyable.hpp:
+
+/usr/local/include/TGUI/extlibs/Aurora/Tools/Downcast.hpp:
+
+/usr/local/include/TGUI/extlibs/Aurora/SmartPtr/Detail/PtrOwner.hpp:
+
+/usr/local/include/TGUI/extlibs/Aurora/SmartPtr/ClonersAndDeleters.hpp:
+
+/usr/local/include/TGUI/extlibs/Aurora/Meta/Templates.hpp:
+
+/usr/local/include/TGUI/Widgets/TextArea.hpp:
 
 /usr/include/c++/14.2.1/pstl/execution_defs.h:
 
 /usr/include/c++/14.2.1/bits/locale_facets.h:
 
 /usr/include/c++/14.2.1/ostream:
+
+/usr/lib/crti.o:
+
+/usr/include/c++/14.2.1/optional:
 
 /usr/include/c++/14.2.1/locale:
 
@@ -680,17 +729,9 @@ CMakeFiles/mi_app.dir/main.cpp.o:
 
 /usr/local/include/TGUI/Exception.hpp:
 
-/usr/include/c++/14.2.1/ext/alloc_traits.h:
-
-/usr/include/bits/types/__locale_t.h:
-
 /usr/include/c++/14.2.1/bits/functional_hash.h:
 
-/usr/include/c++/14.2.1/streambuf:
-
-/usr/lib/libXext.so.6:
-
-/usr/include/c++/14.2.1/regex:
+/usr/include/bits/types/__locale_t.h:
 
 /usr/include/c++/14.2.1/debug/assertions.h:
 
@@ -700,9 +741,9 @@ CMakeFiles/mi_app.dir/main.cpp.o:
 
 /usr/include/c++/14.2.1/cwchar:
 
-/usr/local/include/TGUI/Backends/SFML/BackendFontSFML.hpp:
+/usr/include/c++/14.2.1/tr1/poly_laguerre.tcc:
 
-/usr/include/c++/14.2.1/ctime:
+/usr/local/include/TGUI/Backends/SFML/BackendFontSFML.hpp:
 
 /usr/include/c++/14.2.1/cstring:
 
@@ -712,17 +753,15 @@ CMakeFiles/mi_app.dir/main.cpp.o:
 
 /usr/include/bits/types/FILE.h:
 
-/usr/local/include/TGUI/Vertex.hpp:
-
-/usr/include/linux/posix_types.h:
-
 /usr/include/c++/14.2.1/bitset:
+
+/usr/include/c++/14.2.1/ext/alloc_traits.h:
+
+/usr/include/c++/14.2.1/tr1/hypergeometric.tcc:
 
 /usr/include/c++/14.2.1/bits/vector.tcc:
 
 /usr/include/c++/14.2.1/bits/uses_allocator.h:
-
-/usr/local/include/TGUI/extlibs/Aurora/SmartPtr/ClonersAndDeleters.hpp:
 
 /usr/local/include/SFML/Window.hpp:
 
@@ -730,23 +769,17 @@ CMakeFiles/mi_app.dir/main.cpp.o:
 
 /usr/include/c++/14.2.1/bits/streambuf_iterator.h:
 
-/usr/lib/libgcc_s.so.1:
-
-/usr/include/c++/14.2.1/stack:
-
-/usr/include/c++/14.2.1/bits/charconv.h:
-
-/usr/include/bits/setjmp.h:
-
 /usr/include/c++/14.2.1/iosfwd:
 
 /usr/include/c++/14.2.1/bits/streambuf.tcc:
 
 /usr/include/c++/14.2.1/variant:
 
-/usr/local/include/TGUI/extlibs/Aurora/SmartPtr/Detail/PtrOwner.hpp:
-
 /usr/include/c++/14.2.1/bits/stream_iterator.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/libgcc.a:
+
+/usr/include/c++/14.2.1/utility:
 
 /usr/include/c++/14.2.1/bits/stl_relops.h:
 
@@ -774,7 +807,15 @@ CMakeFiles/mi_app.dir/main.cpp.o:
 
 /usr/include/c++/14.2.1/bits/sstream.tcc:
 
+/usr/local/include/TGUI/Widgets/VerticalLayout.hpp:
+
+/usr/local/include/TGUI/Renderers/MenuBarRenderer.hpp:
+
 /usr/include/c++/14.2.1/bits/shared_ptr.h:
+
+/usr/include/c++/14.2.1/tr1/bessel_function.tcc:
+
+/usr/include/math.h:
 
 /usr/include/c++/14.2.1/initializer_list:
 
@@ -794,12 +835,6 @@ CMakeFiles/mi_app.dir/main.cpp.o:
 
 /usr/include/c++/14.2.1/bits/regex_compiler.tcc:
 
-/usr/include/c++/14.2.1/pstl/glue_memory_defs.h:
-
-/usr/local/include/TGUI/Global.hpp:
-
-/usr/include/c++/14.2.1/bits/regex_automaton.tcc:
-
 /usr/include/c++/14.2.1/bits/regex.tcc:
 
 /usr/include/c++/14.2.1/bits/stl_stack.h:
@@ -810,29 +845,15 @@ CMakeFiles/mi_app.dir/main.cpp.o:
 
 /usr/local/include/SFML/Graphics/Rect.inl:
 
-/usr/local/include/TGUI/Loading/ThemeLoader.hpp:
-
-/usr/include/c++/14.2.1/bits/stl_heap.h:
-
-/usr/include/features-time64.h:
-
 /usr/include/c++/14.2.1/bits/refwrap.h:
 
 /usr/local/include/TGUI/Renderers/PanelRenderer.hpp:
 
 /usr/include/c++/14.2.1/bits/quoted_string.h:
 
-/usr/local/include/TGUI/extlibs/Aurora/Tools/Downcast.hpp:
-
-/usr/include/c++/14.2.1/system_error:
-
-/usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/c++allocator.h:
-
 /usr/include/c++/14.2.1/bits/unordered_map.h:
 
 /usr/include/c++/14.2.1/algorithm:
-
-/usr/include/c++/14.2.1/bits/ostream_insert.h:
 
 /usr/local/include/TGUI/CopiedSharedPtr.hpp:
 
@@ -841,14 +862,6 @@ CMakeFiles/mi_app.dir/main.cpp.o:
 /usr/include/endian.h:
 
 /usr/include/stdint.h:
-
-/usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/error_constants.h:
-
-/usr/include/c++/14.2.1/bits/nested_exception.h:
-
-/usr/include/pthread.h:
-
-/usr/local/include/TGUI/Variant.hpp:
 
 /usr/include/c++/14.2.1/bits/move.h:
 
@@ -860,25 +873,17 @@ CMakeFiles/mi_app.dir/main.cpp.o:
 
 /usr/include/c++/14.2.1/bits/memory_resource.h:
 
-/usr/include/bits/types/struct_FILE.h:
+/usr/include/c++/14.2.1/bits/locale_facets_nonio.tcc:
 
-/usr/include/c++/14.2.1/bits/regex_constants.h:
+/usr/include/c++/14.2.1/bits/locale_facets_nonio.h:
 
-/usr/include/c++/14.2.1/bits/stl_uninitialized.h:
+/usr/include/bits/timesize.h:
 
-/usr/include/bits/types/struct_sched_param.h:
+/usr/include/c++/14.2.1/bits/locale_classes.tcc:
 
-/usr/include/c++/14.2.1/ios:
+/usr/include/bits/struct_mutex.h:
 
-/usr/include/asm/types.h:
-
-/usr/include/c++/14.2.1/iomanip:
-
-/usr/include/bits/atomic_wide_counter.h:
-
-/usr/include/c++/14.2.1/bits/hashtable_policy.h:
-
-/usr/local/include/TGUI/Renderers/FileDialogRenderer.hpp:
+/usr/include/c++/14.2.1/bits/locale_classes.h:
 
 /usr/include/c++/14.2.1/bits/stl_construct.h:
 
@@ -888,43 +893,49 @@ CMakeFiles/mi_app.dir/main.cpp.o:
 
 /usr/include/features.h:
 
+/usr/include/c++/14.2.1/bits/charconv.h:
+
+/usr/include/bits/setjmp.h:
+
+/usr/include/c++/14.2.1/stack:
+
 /usr/include/bits/types.h:
 
-/usr/include/c++/14.2.1/filesystem:
-
 /usr/include/c++/14.2.1/bits/hashtable.h:
-
-/usr/local/include/SFML/Graphics/Text.hpp:
 
 /usr/local/include/SFML/System/Vector2.hpp:
 
 /usr/local/include/TGUI/Renderers/ScrollablePanelRenderer.hpp:
 
-/usr/include/c++/14.2.1/exception:
-
-/usr/include/c++/14.2.1/set:
-
-/usr/local/include/TGUI/Rect.hpp:
-
-/usr/local/include/SFML/Graphics/CircleShape.hpp:
-
 /usr/include/c++/14.2.1/concepts:
 
 /usr/include/c++/14.2.1/bits/atomic_base.h:
 
-/usr/lib/libgcc_s.so:
-
 /usr/include/bits/endian.h:
+
+/usr/include/c++/14.2.1/bits/ostream_insert.h:
+
+/usr/include/c++/14.2.1/cmath:
+
+/usr/include/c++/14.2.1/bits/basic_string.h:
+
+/usr/include/c++/14.2.1/bits/locale_facets.tcc:
 
 /usr/include/bits/thread-shared-types.h:
 
 /usr/local/include/SFML/Graphics/Drawable.hpp:
 
-/usr/include/c++/14.2.1/stdexcept:
+/usr/local/include/SFML/System/NonCopyable.hpp:
+
+/usr/include/c++/14.2.1/bits/specfun.h:
+
+/usr/include/bits/atomic_wide_counter.h:
+
+/usr/include/c++/14.2.1/bits/hashtable_policy.h:
+
+/usr/local/include/TGUI/Renderers/FileDialogRenderer.hpp:
 
 /usr/include/bits/types/time_t.h:
-
-/usr/local/include/SFML/System/FileInputStream.hpp:
 
 /usr/include/c++/14.2.1/pstl/glue_algorithm_defs.h:
 
@@ -936,9 +947,35 @@ CMakeFiles/mi_app.dir/main.cpp.o:
 
 /usr/local/include/TGUI/Transform.hpp:
 
+/usr/include/c++/14.2.1/bits/stl_uninitialized.h:
+
+/usr/include/c++/14.2.1/bits/regex_constants.h:
+
+/usr/include/bits/types/struct_sched_param.h:
+
 /usr/include/bits/types/cookie_io_functions_t.h:
 
 /usr/include/c++/14.2.1/bits/ios_base.h:
+
+/usr/include/c++/14.2.1/exception:
+
+/usr/include/c++/14.2.1/new:
+
+/usr/local/include/SFML/Graphics/Sprite.hpp:
+
+/usr/local/lib/libsfml-window.so.2.6.2:
+
+/usr/local/include/SFML/Graphics/Shape.hpp:
+
+/usr/local/include/TGUI/Text.hpp:
+
+/usr/include/c++/14.2.1/bits/locale_conv.h:
+
+/usr/local/include/SFML/System/ThreadLocalPtr.hpp:
+
+/usr/include/bits/types/error_t.h:
+
+/usr/local/include/SFML/Graphics/CircleShape.hpp:
 
 /usr/include/bits/types/struct___jmp_buf_tag.h:
 
@@ -948,16 +985,6 @@ CMakeFiles/mi_app.dir/main.cpp.o:
 
 /usr/include/bits/waitstatus.h:
 
-/usr/local/include/SFML/System/ThreadLocal.hpp:
-
-/usr/local/include/TGUI/Renderers/MenuBarRenderer.hpp:
-
-/usr/local/include/TGUI/Widgets/VerticalLayout.hpp:
-
-/usr/include/c++/14.2.1/bits/atomic_lockfree_defines.h:
-
-/usr/lib/crtn.o:
-
 /usr/include/c++/14.2.1/bits/uses_allocator_args.h:
 
 /usr/local/include/TGUI/Widgets/TreeView.hpp:
@@ -966,11 +993,45 @@ CMakeFiles/mi_app.dir/main.cpp.o:
 
 /usr/include/locale.h:
 
-/usr/lib/libstdc++.so:
-
 /usr/include/bits/select.h:
 
 /usr/include/c++/14.2.1/bits/algorithmfwd.h:
+
+/usr/include/c++/14.2.1/filesystem:
+
+/usr/local/include/TGUI/Rect.hpp:
+
+/usr/include/c++/14.2.1/set:
+
+/usr/include/bits/pthread_stack_min-dynamic.h:
+
+/usr/include/c++/14.2.1/tr1/ell_integral.tcc:
+
+/usr/include/c++/14.2.1/ctime:
+
+/usr/local/include/SFML/System/Mutex.hpp:
+
+/usr/local/include/TGUI/Widgets/ListView.hpp:
+
+/usr/include/c++/14.2.1/bits/localefwd.h:
+
+/usr/include/gnu/stubs.h:
+
+/usr/include/bits/types/timer_t.h:
+
+/usr/local/include/TGUI/Widgets/ToggleButton.hpp:
+
+/usr/local/include/TGUI/Widgets/CheckBox.hpp:
+
+/usr/local/include/TGUI/Loading/ThemeLoader.hpp:
+
+/usr/include/c++/14.2.1/bits/stl_heap.h:
+
+/usr/include/features-time64.h:
+
+/usr/include/bits/math-vector.h:
+
+/usr/local/include/SFML/Window/ContextSettings.hpp:
 
 /usr/include/asm/posix_types_64.h:
 
@@ -978,33 +1039,17 @@ CMakeFiles/mi_app.dir/main.cpp.o:
 
 /usr/local/include/TGUI/BackendText.hpp:
 
-/usr/include/bits/types/__mbstate_t.h:
-
-/usr/include/bits/stdio_lim.h:
-
-/home/iamjp/NeoVim/ParcialMateDiscreta/main.cpp:
-
 /usr/local/include/SFML/Window/Vulkan.hpp:
 
 /usr/local/include/TGUI/TextStyle.hpp:
 
-/usr/include/c++/14.2.1/bits/stl_map.h:
+/usr/include/c++/14.2.1/ios:
 
-/usr/include/bits/types/locale_t.h:
+/usr/include/asm/types.h:
 
-/usr/include/c++/14.2.1/bits/cxxabi_forced.h:
+/usr/include/c++/14.2.1/iomanip:
 
-/usr/local/include/TGUI/Sprite.hpp:
-
-/usr/include/asm/bitsperlong.h:
-
-/usr/include/wchar.h:
-
-/usr/local/include/TGUI/Renderers/GroupRenderer.hpp:
-
-/usr/include/c++/14.2.1/bits/unique_ptr.h:
-
-/usr/include/asm-generic/int-ll64.h:
+/usr/include/bits/types/struct_FILE.h:
 
 /usr/include/c++/14.2.1/bits/stl_iterator_base_types.h:
 
@@ -1028,6 +1073,10 @@ CMakeFiles/mi_app.dir/main.cpp.o:
 
 /usr/local/include/SFML/System/Clock.hpp:
 
+/usr/lib/libc.so:
+
+/usr/include/asm-generic/types.h:
+
 /usr/include/asm-generic/bitsperlong.h:
 
 /usr/include/c++/14.2.1/bits/chrono.h:
@@ -1038,33 +1087,47 @@ CMakeFiles/mi_app.dir/main.cpp.o:
 
 /usr/include/c++/14.2.1/limits:
 
-/usr/local/include/SFML/Graphics/ConvexShape.hpp:
-
 /usr/local/include/TGUI/Widgets/FileDialog.hpp:
 
-/usr/include/bits/types/__fpos_t.h:
+/usr/include/c++/14.2.1/bits/unique_ptr.h:
 
-/usr/include/c++/14.2.1/bits/fs_ops.h:
+/usr/include/asm-generic/int-ll64.h:
 
-/usr/local/include/SFML/System/MemoryInputStream.hpp:
+/usr/local/include/SFML/Graphics/Text.hpp:
 
-/usr/include/bits/pthread_stack_min-dynamic.h:
+/usr/include/bits/mathcalls-macros.h:
 
-/usr/include/bits/timesize.h:
+/usr/local/include/SFML/System/Lock.hpp:
 
-/usr/include/c++/14.2.1/bits/locale_classes.tcc:
+/usr/include/bits/long-double.h:
 
-/usr/include/bits/struct_mutex.h:
+/usr/include/c++/14.2.1/list:
 
-/usr/include/c++/14.2.1/bits/locale_facets_nonio.tcc:
+/usr/local/include/TGUI/Timer.hpp:
 
-/usr/local/include/TGUI/Backend.hpp:
+/usr/local/include/SFML/System/ThreadLocal.hpp:
 
-/usr/include/c++/14.2.1/bits/stl_deque.h:
+/usr/include/bits/flt-eval-method.h:
 
-/usr/include/c++/14.2.1/bits/stl_tempbuf.h:
+/usr/include/bits/mathcalls-narrow.h:
 
-/usr/include/bits/stdlib-float.h:
+/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/stdint.h:
+
+/usr/include/c++/14.2.1/bits/stl_iterator_base_funcs.h:
+
+/usr/include/bits/pthreadtypes.h:
+
+/usr/local/include/SFML/System/Thread.hpp:
+
+/usr/include/c++/14.2.1/tr1/riemann_zeta.tcc:
+
+/usr/local/include/TGUI/Renderers/ComboBoxRenderer.hpp:
+
+/usr/include/bits/pthreadtypes-arch.h:
+
+/usr/local/include/TGUI/Renderers/RangeSliderRenderer.hpp:
+
+/usr/include/c++/14.2.1/bits/exception_ptr.h:
 
 /usr/include/bits/time64.h:
 
@@ -1073,6 +1136,10 @@ CMakeFiles/mi_app.dir/main.cpp.o:
 /usr/include/bits/cpu-set.h:
 
 /usr/include/bits/typesizes.h:
+
+/usr/include/c++/14.2.1/bits/unordered_set.h:
+
+/usr/local/include/TGUI/Loading/Deserializer.hpp:
 
 /usr/include/c++/14.2.1/ext/type_traits.h:
 
@@ -1084,11 +1151,13 @@ CMakeFiles/mi_app.dir/main.cpp.o:
 
 /usr/local/include/TGUI/Widget.hpp:
 
-/usr/include/bits/long-double.h:
+/home/iamjp/NeoVim/ParcialMateDiscreta/main.cpp:
 
-/usr/include/c++/14.2.1/list:
+/usr/include/bits/stdio_lim.h:
 
-/usr/local/include/TGUI/Timer.hpp:
+/usr/local/include/TGUI/Renderers/EditBoxRenderer.hpp:
+
+/usr/include/bits/libm-simd-decl-stubs.h:
 
 /usr/include/c++/14.2.1/cassert:
 
@@ -1120,16 +1189,6 @@ CMakeFiles/mi_app.dir/main.cpp.o:
 
 /usr/local/include/TGUI/AllWidgets.hpp:
 
-/usr/local/include/SFML/System/Vector3.inl:
-
-/usr/include/c++/14.2.1/bits/version.h:
-
-/usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/atomic_word.h:
-
-/usr/include/bits/types/mbstate_t.h:
-
-/usr/local/include/SFML/Graphics/Transformable.hpp:
-
 /usr/include/c++/14.2.1/bits/shared_ptr_base.h:
 
 /usr/local/include/TGUI/extlibs/Aurora/Config.hpp:
@@ -1140,9 +1199,71 @@ CMakeFiles/mi_app.dir/main.cpp.o:
 
 /usr/include/c++/14.2.1/vector:
 
+/usr/include/bits/stdlib-float.h:
+
+/usr/include/c++/14.2.1/bits/stl_tempbuf.h:
+
+/usr/include/c++/14.2.1/bits/atomic_lockfree_defines.h:
+
+/usr/lib/libc.so.6:
+
+/usr/include/bits/fp-fast.h:
+
+/usr/include/sched.h:
+
+/usr/include/wctype.h:
+
 /usr/include/c++/14.2.1/ext/aligned_buffer.h:
 
 /usr/include/bits/libc-header-start.h:
+
+/usr/include/c++/14.2.1/bits/list.tcc:
+
+/usr/include/c++/14.2.1/map:
+
+/usr/include/c++/14.2.1/bits/exception.h:
+
+/usr/include/c++/14.2.1/bits/stl_deque.h:
+
+/usr/local/include/TGUI/Backend.hpp:
+
+/usr/include/bits/types/__mbstate_t.h:
+
+/usr/include/bits/types/__fpos_t.h:
+
+/usr/include/bits/mathcalls.h:
+
+/usr/local/include/SFML/Window/Mouse.hpp:
+
+/usr/include/c++/14.2.1/bits/fs_ops.h:
+
+/usr/local/include/SFML/System/MemoryInputStream.hpp:
+
+/usr/include/c++/14.2.1/bits/stl_map.h:
+
+/usr/include/bits/types/locale_t.h:
+
+/usr/include/c++/14.2.1/bits/cxxabi_forced.h:
+
+/usr/local/include/TGUI/Sprite.hpp:
+
+/usr/include/asm/bitsperlong.h:
+
+/usr/include/wchar.h:
+
+/usr/local/include/TGUI/Renderers/GroupRenderer.hpp:
+
+/usr/local/include/SFML/System/Vector3.inl:
+
+/usr/include/c++/14.2.1/bits/version.h:
+
+/usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/atomic_word.h:
+
+/usr/include/bits/types/mbstate_t.h:
+
+/usr/local/include/SFML/Graphics/Transformable.hpp:
+
+/usr/local/include/SFML/System/FileInputStream.hpp:
 
 /usr/include/bits/sched.h:
 
@@ -1154,13 +1275,15 @@ CMakeFiles/mi_app.dir/main.cpp.o:
 
 /usr/include/bits/types/struct_timespec.h:
 
-/usr/include/c++/14.2.1/bits/localefwd.h:
+/usr/include/c++/14.2.1/bits/basic_ios.h:
 
-/usr/include/gnu/stubs.h:
+/usr/include/c++/14.2.1/cctype:
 
-/usr/include/bits/types/timer_t.h:
+/usr/include/c++/14.2.1/bits/deque.tcc:
 
-/usr/include/c++/14.2.1/bits/locale_facets_nonio.h:
+/usr/local/include/TGUI/Loading/Serializer.hpp:
+
+/usr/include/bits/types/wint_t.h:
 
 /usr/include/c++/14.2.1/ext/string_conversions.h:
 
@@ -1169,6 +1292,8 @@ CMakeFiles/mi_app.dir/main.cpp.o:
 /usr/include/bits/wordsize.h:
 
 /usr/include/stdio.h:
+
+/usr/include/bits/mathcalls-helper-functions.h:
 
 /usr/include/c++/14.2.1/any:
 
@@ -1186,13 +1311,7 @@ CMakeFiles/mi_app.dir/main.cpp.o:
 
 /usr/local/include/TGUI/Loading/Theme.hpp:
 
-/usr/lib/Scrt1.o:
-
 /usr/include/c++/14.2.1/cerrno:
-
-/usr/include/c++/14.2.1/string:
-
-/usr/include/c++/14.2.1/backward/auto_ptr.h:
 
 /usr/include/c++/14.2.1/bits/memoryfwd.h:
 
@@ -1205,34 +1324,6 @@ CMakeFiles/mi_app.dir/main.cpp.o:
 /usr/include/c++/14.2.1/bits/align.h:
 
 /usr/include/c++/14.2.1/bits/allocated_ptr.h:
-
-/usr/include/c++/14.2.1/string_view:
-
-/usr/include/linux/errno.h:
-
-/usr/include/c++/14.2.1/bits/stl_iterator_base_funcs.h:
-
-/usr/include/bits/pthreadtypes.h:
-
-/usr/local/include/SFML/System/Thread.hpp:
-
-/usr/include/asm-generic/types.h:
-
-/usr/lib/libc.so:
-
-/usr/include/c++/14.2.1/bits/basic_string.h:
-
-/usr/local/include/TGUI/Loading/Deserializer.hpp:
-
-/usr/include/c++/14.2.1/bits/unordered_set.h:
-
-/usr/local/include/TGUI/Renderers/ComboBoxRenderer.hpp:
-
-/usr/include/bits/pthreadtypes-arch.h:
-
-/usr/local/include/TGUI/Renderers/RangeSliderRenderer.hpp:
-
-/usr/include/c++/14.2.1/bits/exception_ptr.h:
 
 /usr/include/c++/14.2.1/bits/regex_error.h:
 
@@ -1252,6 +1343,10 @@ CMakeFiles/mi_app.dir/main.cpp.o:
 
 /usr/local/include/TGUI/Widgets/ColorPicker.hpp:
 
+/usr/local/include/SFML/Graphics/ConvexShape.hpp:
+
+/usr/include/bits/iscanonical.h:
+
 /usr/include/c++/14.2.1/bits/codecvt.h:
 
 /usr/include/c++/14.2.1/bits/concept_check.h:
@@ -1264,14 +1359,6 @@ CMakeFiles/mi_app.dir/main.cpp.o:
 
 /usr/local/include/TGUI/BackendTexture.hpp:
 
-/usr/include/c++/14.2.1/bits/locale_classes.h:
-
-/usr/include/c++/14.2.1/map:
-
-/usr/include/c++/14.2.1/bits/exception.h:
-
-/usr/include/c++/14.2.1/bits/list.tcc:
-
 /usr/include/bits/floatn.h:
 
 /usr/local/include/TGUI/ToolTip.hpp:
@@ -1283,16 +1370,6 @@ CMakeFiles/mi_app.dir/main.cpp.o:
 /usr/local/include/TGUI/Renderers/BoxLayoutRenderer.hpp:
 
 /usr/local/include/TGUI/Renderers/ListViewRenderer.hpp:
-
-/usr/include/c++/14.2.1/bits/basic_ios.h:
-
-/usr/local/include/TGUI/Loading/Serializer.hpp:
-
-/usr/include/bits/types/wint_t.h:
-
-/usr/include/c++/14.2.1/cctype:
-
-/usr/include/c++/14.2.1/bits/deque.tcc:
 
 /usr/include/asm-generic/posix_types.h:
 
@@ -1318,23 +1395,73 @@ CMakeFiles/mi_app.dir/main.cpp.o:
 
 /usr/include/bits/types/struct_tm.h:
 
-/usr/include/c++/14.2.1/new:
+/usr/local/include/TGUI/Global.hpp:
 
-/usr/local/include/SFML/Graphics/Sprite.hpp:
+/usr/include/c++/14.2.1/bits/regex_automaton.tcc:
 
-/usr/local/lib/libsfml-window.so.2.6.2:
+/usr/include/c++/14.2.1/pstl/glue_memory_defs.h:
 
-/usr/local/include/SFML/Graphics/Shape.hpp:
+/usr/local/include/TGUI/Loading/WidgetFactory.hpp:
 
-/usr/local/include/TGUI/Text.hpp:
+/usr/include/c++/14.2.1/ratio:
 
-/usr/include/bits/types/error_t.h:
+/usr/lib/libXext.so.6:
 
-/usr/include/c++/14.2.1/bits/locale_conv.h:
+/usr/include/c++/14.2.1/regex:
 
-/usr/local/include/SFML/System/ThreadLocalPtr.hpp:
+/usr/include/c++/14.2.1/sstream:
 
-/usr/include/c++/14.2.1/bits/locale_facets.tcc:
+/usr/include/c++/14.2.1/pstl/pstl_config.h:
+
+/usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/messages_members.h:
+
+/usr/local/include/TGUI/Cursor.hpp:
+
+/usr/include/c++/14.2.1/stdexcept:
+
+/usr/include/c++/14.2.1/streambuf:
+
+/usr/include/linux/posix_types.h:
+
+/usr/local/include/TGUI/Vertex.hpp:
+
+/usr/include/c++/14.2.1/backward/auto_ptr.h:
+
+/usr/include/c++/14.2.1/string:
+
+/usr/include/pthread.h:
+
+/usr/local/include/TGUI/Variant.hpp:
+
+/usr/include/linux/errno.h:
+
+/usr/include/c++/14.2.1/string_view:
+
+/usr/include/c++/14.2.1/system_error:
+
+/usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/c++allocator.h:
+
+/usr/include/c++/14.2.1/bits/nested_exception.h:
+
+/usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/error_constants.h:
+
+/usr/include/c++/14.2.1/tr1/beta_function.tcc:
+
+/usr/local/include/TGUI/Event.hpp:
+
+/usr/local/include/TGUI/Widgets/Group.hpp:
+
+/usr/include/c++/14.2.1/tr1/exp_integral.tcc:
+
+/usr/local/include/TGUI/Widgets/Tabs.hpp:
+
+/usr/include/c++/14.2.1/bits/std_function.h:
+
+/usr/local/include/SFML/Graphics/VertexArray.hpp:
+
+/usr/include/c++/14.2.1/tr1/legendre_function.tcc:
+
+/usr/include/c++/14.2.1/tr1/modified_bessel_func.tcc:
 
 /usr/include/c++/14.2.1/typeindex:
 
@@ -1386,6 +1513,8 @@ CMakeFiles/mi_app.dir/main.cpp.o:
 
 /usr/lib/libmvec.so.1:
 
+/usr/include/bits/fp-logb.h:
+
 /usr/include/linux/stddef.h:
 
 /usr/include/c++/14.2.1/bits/regex_executor.h:
@@ -1393,10 +1522,6 @@ CMakeFiles/mi_app.dir/main.cpp.o:
 /usr/local/include/TGUI/Backends/SFML.hpp:
 
 /usr/include/linux/types.h:
-
-/usr/include/sched.h:
-
-/usr/include/wctype.h:
 
 /usr/include/stdc-predef.h:
 
@@ -1412,9 +1537,11 @@ CMakeFiles/mi_app.dir/main.cpp.o:
 
 /usr/local/include/SFML/Window/GlResource.hpp:
 
-/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/stdarg.h:
+/usr/local/include/TGUI/Widgets/Button.hpp:
 
-/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/stdint.h:
+/usr/include/time.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/stdarg.h:
 
 /usr/include/c++/14.2.1/codecvt:
 
@@ -1448,6 +1575,8 @@ CMakeFiles/mi_app.dir/main.cpp.o:
 
 /usr/local/include/SFML/Graphics/RenderWindow.hpp:
 
+/usr/include/c++/14.2.1/tr1/gamma.tcc:
+
 /usr/local/include/SFML/Graphics/Image.hpp:
 
 /usr/local/include/SFML/Graphics/PrimitiveType.hpp:
@@ -1474,31 +1603,19 @@ CMakeFiles/mi_app.dir/main.cpp.o:
 
 /usr/local/include/SFML/Graphics/Vertex.hpp:
 
-/usr/include/c++/14.2.1/bits/std_function.h:
-
-/usr/local/include/SFML/Graphics/VertexArray.hpp:
-
 /usr/local/include/SFML/Graphics/VertexBuffer.hpp:
 
 /usr/local/include/SFML/System/Vector2.inl:
 
-/usr/local/include/TGUI/Core.hpp:
-
 /usr/include/c++/14.2.1/bits/istream.tcc:
+
+/usr/local/include/TGUI/Core.hpp:
 
 /usr/local/include/SFML/Graphics/View.hpp:
 
 /usr/local/include/SFML/System.hpp:
 
 /usr/local/include/SFML/System/Err.hpp:
-
-/usr/local/include/SFML/System/Lock.hpp:
-
-/usr/local/include/SFML/System/Mutex.hpp:
-
-/usr/local/include/TGUI/Widgets/ListView.hpp:
-
-/usr/local/include/SFML/System/NonCopyable.hpp:
 
 /usr/include/c++/14.2.1/istream:
 
@@ -1518,13 +1635,13 @@ CMakeFiles/mi_app.dir/main.cpp.o:
 
 /usr/local/include/TGUI/Widgets/Slider.hpp:
 
+/usr/include/c++/14.2.1/tr1/poly_hermite.tcc:
+
 /usr/local/include/SFML/System/Utf.hpp:
 
 /usr/local/include/SFML/System/Vector3.hpp:
 
 /usr/local/include/SFML/Window/Clipboard.hpp:
-
-/usr/local/include/SFML/Window/ContextSettings.hpp:
 
 /usr/lib32/libX11.so.6:
 
@@ -1539,8 +1656,6 @@ CMakeFiles/mi_app.dir/main.cpp.o:
 /usr/local/include/SFML/Window/Export.hpp:
 
 /usr/local/include/SFML/Window/Keyboard.hpp:
-
-/usr/local/include/SFML/Window/Mouse.hpp:
 
 /usr/include/c++/14.2.1/ext/concurrence.h:
 
@@ -1590,6 +1705,8 @@ CMakeFiles/mi_app.dir/main.cpp.o:
 
 /usr/local/include/TGUI/Backends/SFML/GuiSFML.hpp:
 
+/usr/include/c++/14.2.1/tr1/special_function_util.h:
+
 /usr/local/include/TGUI/Color.hpp:
 
 /usr/include/c++/14.2.1/cwctype:
@@ -1603,10 +1720,6 @@ CMakeFiles/mi_app.dir/main.cpp.o:
 /usr/include/bits/types/clock_t.h:
 
 /usr/local/include/TGUI/Duration.hpp:
-
-/usr/local/include/TGUI/Event.hpp:
-
-/usr/local/include/TGUI/Widgets/Group.hpp:
 
 /usr/local/include/TGUI/Filesystem.hpp:
 
@@ -1630,10 +1743,6 @@ CMakeFiles/mi_app.dir/main.cpp.o:
 
 /usr/local/include/TGUI/RenderStates.hpp:
 
-/usr/include/c++/14.2.1/optional:
-
-/usr/lib/crti.o:
-
 /usr/local/include/TGUI/Renderers/ButtonRenderer.hpp:
 
 /usr/local/include/TGUI/Renderers/ChatBoxRenderer.hpp:
@@ -1641,14 +1750,6 @@ CMakeFiles/mi_app.dir/main.cpp.o:
 /usr/local/lib/libtgui.so.0.9.5:
 
 /usr/local/include/TGUI/Renderers/CheckBoxRenderer.hpp:
-
-/usr/local/include/TGUI/Renderers/EditBoxRenderer.hpp:
-
-/usr/include/time.h:
-
-/usr/local/include/TGUI/Widgets/Button.hpp:
-
-/usr/lib/ld-linux-x86-64.so.2:
 
 /usr/local/include/TGUI/Renderers/KnobRenderer.hpp:
 
@@ -1696,8 +1797,6 @@ CMakeFiles/mi_app.dir/main.cpp.o:
 
 /usr/local/include/TGUI/Widgets/Canvas.hpp:
 
-/usr/local/include/TGUI/Widgets/TextArea.hpp:
-
 /usr/local/include/TGUI/Texture.hpp:
 
 /usr/include/c++/14.2.1/bits/stl_bvector.h:
@@ -1737,27 +1836,3 @@ CMakeFiles/mi_app.dir/main.cpp.o:
 /usr/local/include/TGUI/Widgets/SpinButton.hpp:
 
 /usr/local/include/TGUI/Widgets/SpinControl.hpp:
-
-/usr/local/include/TGUI/Widgets/Tabs.hpp:
-
-/usr/local/include/TGUI/Widgets/CheckBox.hpp:
-
-/usr/local/include/TGUI/Widgets/ToggleButton.hpp:
-
-/usr/local/include/TGUI/extlibs/Aurora/Meta/Templates.hpp:
-
-/usr/local/include/TGUI/extlibs/Aurora/Tools/NonCopyable.hpp:
-
-/usr/local/include/TGUI/extlibs/Aurora/Tools/SafeBool.hpp:
-
-/usr/local/include/TGUI/extlibs/Aurora/Tools/Swap.hpp:
-
-/usr/lib/libm.so:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/crtbeginS.o:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/crtendS.o:
-
-/usr/include/c++/14.2.1/utility:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/libgcc.a:

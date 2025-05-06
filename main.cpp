@@ -8,6 +8,7 @@
 #include <chrono>
 #include <iomanip>
 #include <sstream>
+#include <cmath>
 
 enum class Estado { Inicio, Cerrar };
 
@@ -135,7 +136,8 @@ void interfazInicio(tgui::Gui& gui, std::function<void(int)> onValidNumber) {
 }
 
 std::vector<std::vector<double>> calcularMatrizTransicion() {
-    int conteo[4][4] = {0}; 
+    int conteo[4][4] = {0};
+
     for (size_t i = 0; i + 1 < climas.size(); i++) {
         int actual = climas[i].estado;
         int siguiente = climas[i + 1].estado;
@@ -143,14 +145,21 @@ std::vector<std::vector<double>> calcularMatrizTransicion() {
     }
 
     std::vector<std::vector<double>> matriz(4, std::vector<double>(4, 0.0));
+
     for (int i = 0; i < 4; i++) {
         int total = 0;
         for (int j = 0; j < 4; j++) total += conteo[i][j];
+
         for (int j = 0; j < 4; j++) {
-            if (total != 0) matriz[i][j] = static_cast<double>(conteo[i][j]) / total;
-            else matriz[i][j] = 0.0;
+            if (total != 0) {
+                double valor = static_cast<double>(conteo[i][j]) / total;
+                matriz[i][j] = std::round(valor * 10000.0) / 10000.0;
+            } else {
+                matriz[i][j] = 0.0;
+            }
         }
     }
+
     return matriz;
 }
 std::vector<int> predecirClima(int dias, const std::vector<std::vector<double>>& matriz, int estadoInicial) {
@@ -277,7 +286,7 @@ void segundaVentana() {
 
         nuevaVentana.clear();
         nuevaVentana.draw(fondoSprite);
-        for (size_t i = 0; i < rectangulos.size(); i++) { 
+        for (int i = 0; i < rectangulos.size(); i++) { 
             nuevaVentana.draw(rectangulos[i]);
             nuevaVentana.draw(textosNumeros[i]);
             nuevaVentana.draw(textosDescripcion[i]);
@@ -300,11 +309,15 @@ void abrirVentanaMatriz() {
     
     std::vector<std::string> nombres = {"Soleado", "P. Soleado", "P. Nublado", "Nublado"};
 
+
     for (int i = 0; i < 4; i++) {
         for (int j = 0; j < 4; j++) {
+            std::ostringstream oss;
+            oss.precision(4);
+            oss << std::fixed << matrizTransicion[i][j];
             auto label = tgui::Label::create();
             label->setTextSize(20);
-            label->setText(tgui::String(std::to_string(matrizTransicion[i][j]).substr(0,4)));
+            label->setText(tgui::String(oss.str()));
             label->setPosition(150 + j * 100, 100 + i * 50);
             gui.add(label);
         }
